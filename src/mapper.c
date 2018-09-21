@@ -23,6 +23,7 @@
 *                (T)he K(I)cki(N) (T)ickin D(I)kumud Clie(N)t                 *
 *                                                                             *
 *                      coded by Igor van den Hoven 2004                       *
+*                           Modified by Inutt 2018                            *
 ******************************************************************************/
 
 #include "tintin.h"
