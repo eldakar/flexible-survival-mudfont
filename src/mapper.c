@@ -1059,17 +1059,59 @@ DO_MAP(map_legend)
 			ses->map->legend[24], ses->map->legend[25], ses->map->legend[26], ses->map->legend[27],
 			ses->map->legend[28], ses->map->legend[29], ses->map->legend[30], ses->map->legend[31]);
 
-		tintin_printf2(ses, "#MAP LEGEND: UTF-8 MUDFONT N NW W SW S\n\n%s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s\n",
+		tintin_printf2(ses, "#MAP LEGEND: UTF-8 MUDFONT N NW W SW S\n\n%s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s\n%s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s\n",
 			ses->map->legend[32], ses->map->legend[33], ses->map->legend[34], ses->map->legend[35],
 			ses->map->legend[36], ses->map->legend[37], ses->map->legend[38], ses->map->legend[39],
 			ses->map->legend[40], ses->map->legend[41], ses->map->legend[42], ses->map->legend[43],
-			ses->map->legend[44], ses->map->legend[45], ses->map->legend[46], ses->map->legend[47]);
+			ses->map->legend[44], ses->map->legend[45], ses->map->legend[46], ses->map->legend[47],
 
-		tintin_printf2(ses, "#MAP LEGEND: UTF-8 MUDFONT N NE E SE S\n\n%s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s\n",
 			ses->map->legend[48], ses->map->legend[49], ses->map->legend[50], ses->map->legend[51],
 			ses->map->legend[52], ses->map->legend[53], ses->map->legend[54], ses->map->legend[55],
 			ses->map->legend[56], ses->map->legend[57], ses->map->legend[58], ses->map->legend[59],
-			ses->map->legend[60], ses->map->legend[61], ses->map->legend[62], ses->map->legend[63]);
+			ses->map->legend[60], ses->map->legend[61], ses->map->legend[62], ses->map->legend[63],
+
+			ses->map->legend[64], ses->map->legend[65], ses->map->legend[66], ses->map->legend[67],
+			ses->map->legend[68], ses->map->legend[69], ses->map->legend[70], ses->map->legend[71],
+			ses->map->legend[72], ses->map->legend[73], ses->map->legend[74], ses->map->legend[75],
+			ses->map->legend[76], ses->map->legend[77], ses->map->legend[78], ses->map->legend[79],
+
+			ses->map->legend[80], ses->map->legend[81], ses->map->legend[82], ses->map->legend[83],
+			ses->map->legend[84], ses->map->legend[85], ses->map->legend[86], ses->map->legend[87],
+			ses->map->legend[88], ses->map->legend[89], ses->map->legend[90], ses->map->legend[91],
+			ses->map->legend[92], ses->map->legend[93], ses->map->legend[94], ses->map->legend[95]);
+
+		tintin_printf2(ses, "#MAP LEGEND: UTF-8 MUDFONT N NE E SE S\n\n%s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s\n%s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s\n",
+			ses->map->legend[96],  ses->map->legend[97],  ses->map->legend[98],  ses->map->legend[99],
+			ses->map->legend[100], ses->map->legend[101], ses->map->legend[102], ses->map->legend[103],
+			ses->map->legend[104], ses->map->legend[105], ses->map->legend[106], ses->map->legend[107],
+			ses->map->legend[108], ses->map->legend[109], ses->map->legend[110], ses->map->legend[111],
+
+			ses->map->legend[112], ses->map->legend[113], ses->map->legend[114], ses->map->legend[115],
+			ses->map->legend[116], ses->map->legend[117], ses->map->legend[118], ses->map->legend[119],
+			ses->map->legend[120], ses->map->legend[121], ses->map->legend[122], ses->map->legend[123],
+			ses->map->legend[124], ses->map->legend[125], ses->map->legend[126], ses->map->legend[127],
+
+			ses->map->legend[128], ses->map->legend[129], ses->map->legend[130], ses->map->legend[131],
+			ses->map->legend[132], ses->map->legend[133], ses->map->legend[134], ses->map->legend[135],
+			ses->map->legend[136], ses->map->legend[137], ses->map->legend[138], ses->map->legend[139],
+			ses->map->legend[140], ses->map->legend[141], ses->map->legend[142], ses->map->legend[143],
+
+			ses->map->legend[144], ses->map->legend[145], ses->map->legend[146], ses->map->legend[147],
+			ses->map->legend[148], ses->map->legend[149], ses->map->legend[150], ses->map->legend[151],
+			ses->map->legend[152], ses->map->legend[153], ses->map->legend[154], ses->map->legend[155],
+			ses->map->legend[156], ses->map->legend[157], ses->map->legend[158], ses->map->legend[159]);
+
+		tintin_printf2(ses, "#MAP LEGEND: UTF-8 MUDFONT VOID ROOMS\n\n%s%s %s%s %s%s %s%s %s%s %s%s %s%s %s%s %s%s %s%s %s%s %s%s %s%s %s%s %s%s\n",
+			                                                ses->map->legend[161],  ses->map->legend[177],
+			ses->map->legend[162],  ses->map->legend[178],  ses->map->legend[163],  ses->map->legend[179],
+			ses->map->legend[164],  ses->map->legend[180],  ses->map->legend[165],  ses->map->legend[181],
+			ses->map->legend[166],  ses->map->legend[182],  ses->map->legend[167],  ses->map->legend[183],
+
+			ses->map->legend[168],  ses->map->legend[184],  ses->map->legend[169],  ses->map->legend[185],
+			ses->map->legend[170],  ses->map->legend[186],  ses->map->legend[171],  ses->map->legend[187],
+			ses->map->legend[172],  ses->map->legend[187],  ses->map->legend[173],  ses->map->legend[188],
+			ses->map->legend[174],  ses->map->legend[189],  ses->map->legend[175],  ses->map->legend[190]);
+
 	}
 	else
 	{
@@ -2130,15 +2172,35 @@ void create_map(struct session *ses, char *arg)
 
 		"{X}{\xE2\x97\x84}{\xE2\x96\xBA} { } { } { } { } { } { } { } { } { } { } { } { } { }"
 
+		// West side of compass
 		"{\xEE\x80\x80}{\xEE\x80\x81}{\xEE\x80\x82}{\xEE\x80\x83}{\xEE\x80\x84}{\xEE\x80\x85}{\xEE\x80\x86}{\xEE\x80\x87}"
 		"{\xEE\x80\x88}{\xEE\x80\x89}{\xEE\x80\x8A}{\xEE\x80\x8B}{\xEE\x80\x8C}{\xEE\x80\x8D}{\xEE\x80\x8E}{\xEE\x80\x8F}"
 		"{\xEE\x80\x90}{\xEE\x80\x91}{\xEE\x80\x92}{\xEE\x80\x93}{\xEE\x80\x94}{\xEE\x80\x95}{\xEE\x80\x96}{\xEE\x80\x97}"
 		"{\xEE\x80\x98}{\xEE\x80\x99}{\xEE\x80\x9A}{\xEE\x80\x9B}{\xEE\x80\x9C}{\xEE\x80\x9D}{\xEE\x80\x9E}{\xEE\x80\x9F}"
 
+		// West side of compass and down
 		"{\xEE\x80\xA0}{\xEE\x80\xA1}{\xEE\x80\xA2}{\xEE\x80\xA3}{\xEE\x80\xA4}{\xEE\x80\xA5}{\xEE\x80\xA6}{\xEE\x80\xA7}"
 		"{\xEE\x80\xA8}{\xEE\x80\xA9}{\xEE\x80\xAA}{\xEE\x80\xAB}{\xEE\x80\xAC}{\xEE\x80\xAD}{\xEE\x80\xAE}{\xEE\x80\xAF}"
 		"{\xEE\x80\xB0}{\xEE\x80\xB1}{\xEE\x80\xB2}{\xEE\x80\xB3}{\xEE\x80\xB4}{\xEE\x80\xB5}{\xEE\x80\xB6}{\xEE\x80\xB7}"
 		"{\xEE\x80\xB8}{\xEE\x80\xB9}{\xEE\x80\xBA}{\xEE\x80\xBB}{\xEE\x80\xBC}{\xEE\x80\xBD}{\xEE\x80\xBE}{\xEE\x80\xBF}"
+
+		// east side of compass
+		"{\xEE\x81\x80}{\xEE\x81\x81}{\xEE\x81\x82}{\xEE\x81\x83}{\xEE\x81\x84}{\xEE\x81\x85}{\xEE\x81\x86}{\xEE\x81\x87}"
+		"{\xEE\x81\x88}{\xEE\x81\x89}{\xEE\x81\x8A}{\xEE\x81\x8B}{\xEE\x81\x8C}{\xEE\x81\x8D}{\xEE\x81\x8E}{\xEE\x81\x8F}"
+		"{\xEE\x81\x90}{\xEE\x81\x91}{\xEE\x81\x92}{\xEE\x81\x93}{\xEE\x81\x94}{\xEE\x81\x95}{\xEE\x81\x96}{\xEE\x81\x97}"
+		"{\xEE\x81\x98}{\xEE\x81\x99}{\xEE\x81\x9A}{\xEE\x81\x9B}{\xEE\x81\x9C}{\xEE\x81\x9D}{\xEE\x81\x9E}{\xEE\x81\x9F}"
+
+		// east side of compass and up
+		"{\xEE\x81\xA0}{\xEE\x81\xA1}{\xEE\x81\xA2}{\xEE\x81\xA3}{\xEE\x81\xA4}{\xEE\x81\xA5}{\xEE\x81\xA6}{\xEE\x81\xA7}"
+		"{\xEE\x81\xA8}{\xEE\x81\xA9}{\xEE\x81\xAA}{\xEE\x81\xAB}{\xEE\x81\xAC}{\xEE\x81\xAD}{\xEE\x81\xAE}{\xEE\x81\xAF}"
+		"{\xEE\x81\xB0}{\xEE\x81\xB1}{\xEE\x81\xB2}{\xEE\x81\xB3}{\xEE\x81\xB4}{\xEE\x81\xB5}{\xEE\x81\xB6}{\xEE\x81\xB7}"
+		"{\xEE\x81\xB8}{\xEE\x81\xB9}{\xEE\x81\xBA}{\xEE\x81\xBB}{\xEE\x81\xBC}{\xEE\x81\xBD}{\xEE\x81\xBE}{\xEE\x81\xBF}"
+
+		// void room symbols. The 0x20 is " ", used for vertical voids
+		"        {\x20}{\xEE\x82\x81}{\xEE\x82\x82}{\xEE\x82\x83}{\xEE\x82\x84}{\xEE\x82\x85}{\xEE\x82\x86}{\xEE\x82\x87}"
+		"{\xEE\x82\x88}{\xEE\x82\x89}{\xEE\x82\x8a}{\xEE\x82\x8b}{\xEE\x82\x8c}{\xEE\x82\x8d}{\xEE\x82\x8e}{\xEE\x82\x8f}"
+		"        {\x20}{\xEE\x82\x91}{\xEE\x82\x92}{\xEE\x82\x93}{\xEE\x82\x94}{\xEE\x82\x95}{\xEE\x82\x96}{\xEE\x82\x97}"
+		"{\xEE\x82\x98}{\xEE\x82\x99}{\xEE\x82\x9a}{\xEE\x82\x9b}{\xEE\x82\x9c}{\xEE\x82\x9d}{\xEE\x82\x9e}{\xEE\x82\x9f}"
 
 		);
 	}
@@ -2172,7 +2234,7 @@ void create_legend(struct session *ses, char *arg)
 	int cnt;
 	char buf[BUFFER_SIZE];
 
-	for (cnt = 0 ; cnt < 128 ; cnt++)
+	for (cnt = 0 ; cnt < 1024 ; cnt++)
 	{
 		arg = get_arg_in_braces(ses, arg, buf, FALSE);
 
@@ -2776,6 +2838,7 @@ char *draw_room(struct session *ses, struct room_data *room, int line)
 {
 	static char buf[101];
 	int exits, exit1, exit2, room1, room2;
+	long long temp_exit;
 
 	push_call("draw_room(%p,%p,%p)",ses,room,line);
 
@@ -2908,27 +2971,33 @@ char *draw_room(struct session *ses, struct room_data *room, int line)
 	exit1 = 0;
 	exit2 = 0;
 	exits = 0;
+	
+	// Map up/down+<direction> to <direction> for map display purposes
+	// FIXME: This assumes MAP_EXIT_U and MAP_EXIT_D have higher values than MAP_EXIT_<N|E|S|W|NE|SE|SW|NW>, which might not always be valid
+	temp_exit = room->exit_dirs;
+	if ((temp_exit > MAP_DIR_U) && (temp_exit < pow(MAP_DIR_U,2))) { temp_exit |= temp_exit >> MAP_EXIT_U; };
+	if ((temp_exit > MAP_DIR_D) && (temp_exit < pow(MAP_DIR_D,2))) { temp_exit |= temp_exit >> MAP_EXIT_D; };
 
-	if (HAS_BIT(room->exit_dirs, MAP_DIR_N))
+	if (HAS_BIT(temp_exit, MAP_DIR_N))
 	{
 		SET_BIT(exit1, 1 << 0);
 		SET_BIT(exit2, 1 << 0);
 		SET_BIT(exits, MAP_EXIT_N);
 	}
 
-	if (HAS_BIT(room->exit_dirs, MAP_DIR_W))
+	if (HAS_BIT(temp_exit, MAP_DIR_W))
 	{
 		SET_BIT(exit1, 1 << 2);
 		SET_BIT(exits, MAP_EXIT_W);
 	}
 
-	if (HAS_BIT(room->exit_dirs, MAP_DIR_E))
+	if (HAS_BIT(temp_exit, MAP_DIR_E))
 	{
 		SET_BIT(exit2, 1 << 2);
 		SET_BIT(exits, MAP_EXIT_E);
 	}
 
-	if (HAS_BIT(room->exit_dirs, MAP_DIR_S))
+	if (HAS_BIT(temp_exit, MAP_DIR_S))
 	{
 		SET_BIT(exit1, 1 << 4);
 		SET_BIT(exit2, 1 << 4);
@@ -2937,29 +3006,44 @@ char *draw_room(struct session *ses, struct room_data *room, int line)
 
 	if (HAS_BIT(ses->map->flags, MAP_FLAG_MUDFONT))
 	{
-		if (HAS_BIT(room->exit_dirs, MAP_DIR_NW))
+		if (HAS_BIT(temp_exit, MAP_DIR_NW))
 		{
 			SET_BIT(exit1, 1 << 1);
 			SET_BIT(exits, MAP_EXIT_NW);
 		}
-		if (HAS_BIT(room->exit_dirs, MAP_DIR_NE))
+		if (HAS_BIT(temp_exit, MAP_DIR_NE))
 		{
 			SET_BIT(exit2, 1 << 1);
 			SET_BIT(exits, MAP_EXIT_NE);
 		}
-		if (HAS_BIT(room->exit_dirs, MAP_DIR_SW))
+		if (HAS_BIT(temp_exit, MAP_DIR_SW))
 		{
 			SET_BIT(exit1, 1 << 3);
 			SET_BIT(exits, MAP_EXIT_SW);
 		}
-		if (HAS_BIT(room->exit_dirs, MAP_DIR_SE))
+		if (HAS_BIT(temp_exit, MAP_DIR_SE))
 		{
 			SET_BIT(exit2, 1 << 3);
 			SET_BIT(exits, MAP_EXIT_SE);
 		}
 
 		room1 = exit1 + 32;
-		room2 = exit2 + 64;
+		room2 = exit2 + 96;
+		
+		// Void rooms can't have horizontal *and* up or down exits, as the map is only 2D (for now).
+		// Vertical voids do have a symbol, but it's not currently used.
+		if (HAS_BIT(room->flags, ROOM_FLAG_VOID)) {
+			room1 += 128;
+			room2 += 80;
+
+			// Handle exception for n-s void rooms as they occur at a different offset
+			if (room1 == 177 ) { room1 -=16; };
+			if (room2 == 193 ) { room2 -=16; };
+		} else {
+			if (HAS_BIT(room->exit_dirs, MAP_DIR_D)) { room1 += 32; };
+			if (HAS_BIT(room->exit_dirs, MAP_DIR_U)) { room2 += 32; };
+		};
+
 /*
 		if (HAS_BIT(room->flags, ROOM_FLAG_RIVER))
 		{

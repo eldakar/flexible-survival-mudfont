@@ -951,7 +951,7 @@ struct map_data
 	int                     last_room;
 	short                   display_stamp;
 	short                   nofollow;
-	char                    legend[128][LEGEND_SIZE];
+	char                    legend[1024][LEGEND_SIZE];
 };
 
 struct room_data
