@@ -9,7 +9,7 @@ A font is included that contains the necessary symbols (and only the necessary s
 ## Installation
 To create the main tintin++ executable:
 
-    git clone git@gitlab.com:inutt/tintin.git
+    git clone https://gitlab.com/inutt/tintin.git
     cd tintin/src
     ./configure
     make
